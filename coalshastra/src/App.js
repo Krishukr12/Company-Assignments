@@ -1,9 +1,16 @@
-import "./App.css";
+import "./index.css";
+
+// Component imports
+import { Navbar } from "../src/Components/Navbar/Navbar";
+import MarketDetails from "./Components/Market Details/MarketDetails";
 
 function App() {
   return (
     <div className="App">
-      <h1>Krishan Kumar Safi</h1>
+      <Navbar />
+      <div className="content_container">
+        <MarketDetails />
+      </div>
     </div>
   );
 }

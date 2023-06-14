@@ -1,0 +1,12 @@
+.navbar_container {
+  height: 3rem;
+  background-color: #2959ba;
+  color: #fdfdfe;
+}
+
+.content_container {
+  border: 1px solid red;
+  height: 100%;
+  width: 85%;
+  margin: auto;
+}
