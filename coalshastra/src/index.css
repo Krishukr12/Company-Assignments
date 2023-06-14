@@ -14,8 +14,18 @@ body {
 }
 
 .content_container {
-  border: 1px solid red;
   height: 100vh;
   width: 85%;
   margin: auto;
+}
+
+/* ...............Media queries(Medium Device)........................ */
+@media screen and (max-width: 1024px) {
+  .content_container {
+    width: 90%;
+  }
+}
+
+/* ...............Media queries(Small Device)........................ */
+@media screen and (max-width: 600px) {
 }

@@ -1,3 +1,37 @@
 .main_container {
-  border: 1px solid;
+  height: 3.8rem;
+  display: flex;
+  gap: 0.5rem;
+  overflow: scroll;
+}
+
+.tab_item {
+  width: max-content;
+  padding: 1rem 1rem;
+  color: #7a7984;
+  font-weight: 10px;
+  font-weight: 600;
+}
+
+.active {
+  color: #2b62be;
+  border-bottom: 2px solid #2b62be;
+}
+
+.icon {
+  margin-right: 0.7rem;
+}
+
+.main_container::-webkit-scrollbar {
+  display: none;
+}
+/* ...............Media queries(Medium Device)........................ */
+@media screen and (max-width: 1024px) {
+}
+
+/* ...............Media queries(Small Device)........................ */
+@media screen and (max-width: 600px) {
+  .icon {
+    margin-right: 0.2rem;
+  }
 }
