@@ -20,6 +20,8 @@
 
 .icon {
   margin-right: 0.7rem;
+  height: 25px;
+  font-size: 18px;
 }
 
 .main_container::-webkit-scrollbar {
@@ -27,11 +29,16 @@
 }
 /* ...............Media queries(Medium Device)........................ */
 @media screen and (max-width: 1024px) {
+  .icon {
+    margin-right: 0.6rem;
+    height: 22px;
+  }
 }
 
 /* ...............Media queries(Small Device)........................ */
 @media screen and (max-width: 600px) {
   .icon {
-    margin-right: 0.2rem;
+    margin-right: 0.5rem;
+    height: 20px;
   }
 }

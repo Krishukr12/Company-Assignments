@@ -1,15 +1,16 @@
 import React from "react";
 
 import classes from "./MarketDetails.module.css";
-import { AiOutlineStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 const MarketDetails = () => {
   return (
+    //todo : Remove inline style
     <div className={classes.main_container}>
       <div
         style={{ display: "flex", gap: "0.1rem" }}
         className={classes.tab_item}
       >
-        <AiOutlineStar className={classes.icon} />
+        <AiFillStar className={classes.icon} />
         <div>FAV</div>
       </div>
       <div className={`${classes.tab_item} ${classes.active}`}>USAGUJ</div>

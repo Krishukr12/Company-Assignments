@@ -1,0 +1,85 @@
+.main_container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #7a7984;
+  font-weight: 500;
+}
+
+.filter_container {
+  display: flex;
+  gap: 15px;
+}
+
+.filter_container > div > select {
+  border: 1px solid #e4e4e4;
+  width: max-content;
+  outline: none;
+  font-weight: 450;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.filter_container > div > label {
+  font-size: 0.8rem;
+}
+
+.clear_all {
+  color: #3167c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.search_container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  outline: none;
+  border: 1px solid #e4e4e4;
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+/* Media queries (Medium Device) */
+@media screen and (max-width: 1024px) {
+}
+
+/* Media queries (Small Device) */
+@media screen and (max-width: 600px) {
+  .main_container {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 1.5rem;
+  }
+
+  .filter_container {
+    margin-left: 1rem;
+    gap: 10px;
+  }
+
+  .filter_container > div > select {
+    padding: 5px 5px;
+  }
+
+  .clear_all {
+    font-size: 12px;
+    margin-top: 1.5rem;
+  }
+
+  .search_container {
+    width: 100%;
+  }
+
+  .searchBar {
+    width: 25rem;
+    height: 3rem;
+  }
+}
