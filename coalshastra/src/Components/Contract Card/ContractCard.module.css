@@ -1,7 +1,6 @@
 .contractCard_container {
   height: 12rem;
   border-bottom: 1px solid #e4e4e4;
-
 }
 
 .title_icon_container {
@@ -49,7 +48,6 @@
 
 .bid_price_container {
   height: max-content;
-
   display: flex;
   gap: 2rem;
   margin-left: 0.3125rem;

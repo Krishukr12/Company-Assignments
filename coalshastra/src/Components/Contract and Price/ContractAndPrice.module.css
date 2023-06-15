@@ -1,16 +1,14 @@
 .contract_price_container {
-  height: 80vh;
   display: flex;
   margin-top: 2rem;
 }
 .contract_container {
   width: 40%;
-  height: 20rem;
+  height: 30rem;
   overflow: scroll;
   overflow-x: hidden;
 }
 
 .price_container {
   width: 60%;
-  height: 20rem;
 }

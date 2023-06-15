@@ -2,6 +2,7 @@ import React from "react";
 
 import classes from "./ContractAndPrice.module.css";
 import ContractCard from "../Contract Card/ContractCard";
+import PriceDetails from "./PriceDetails";
 
 export const ContractAndPrice = () => {
   return (
@@ -11,7 +12,9 @@ export const ContractAndPrice = () => {
         <ContractCard />
         <ContractCard />
       </div>
-      <div className={classes.price_container}></div>
+      <div className={classes.price_container}>
+        <PriceDetails />
+      </div>
     </div>
   );
 };
