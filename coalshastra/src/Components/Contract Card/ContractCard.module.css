@@ -1,0 +1,63 @@
+.contractCard_container {
+  height: 12rem;
+  border-bottom: 1px solid #e4e4e4;
+
+}
+
+.title_icon_container {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  justify-content: space-between;
+}
+
+.title_container {
+  font-weight: 600;
+  color: #561b8c;
+  font-size: 1.3125rem;
+}
+
+.icon_container {
+  margin-right: 0.625rem;
+  display: flex;
+  gap: 1.4rem;
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.nationFlag {
+  height: 0.9375rem;
+  width: 1.5625rem;
+  margin-left: 0.3125rem;
+}
+
+.address_container,
+.shipped_addresses {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.address_container {
+  font-weight: 450;
+}
+
+.shipped_addresses {
+  font-weight: 500;
+}
+
+.bid_price_container {
+  height: max-content;
+
+  display: flex;
+  gap: 2rem;
+  margin-left: 0.3125rem;
+  font-weight: 500;
+}
+
+.price_lable {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7a7984;
+}

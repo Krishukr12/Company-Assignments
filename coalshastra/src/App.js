@@ -4,6 +4,7 @@ import "./index.css";
 import { Navbar } from "../src/Components/Navbar/Navbar";
 import MarketDetails from "./Components/Market Details/MarketDetails";
 import FilterAndSearch from "./Components/Filter and Search/FilterAndSearch";
+import { ContractAndPrice } from "./Components/Contract and Price/ContractAndPrice";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="content_container">
         <MarketDetails />
         <FilterAndSearch />
+        <ContractAndPrice />
       </div>
     </div>
   );
