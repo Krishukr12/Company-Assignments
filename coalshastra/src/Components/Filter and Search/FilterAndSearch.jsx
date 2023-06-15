@@ -4,31 +4,27 @@ import classes from "./FilterAndSearch.module.css";
 
 import { AiOutlineSearch } from "react-icons/ai";
 
+const SelectOptionData = [
+  { label: "Currency", option: "INR" },
+  { label: "Payments Methods", option: "Payment Methods" },
+  { label: "Lifting Days", option: "Lifting Days" },
+];
+
 const FilterAndSearch = () => {
   return (
     <div className={classes.main_container}>
       <div className={classes.filter_container}>
-        <div>
-          <label>Currency</label>
-          <br></br>
-          <select>
-            <option value="INR">INR</option>
-          </select>
-        </div>
-        <div>
-          <label>Payments Methods</label>
-          <br></br>
-          <select>
-            <option value="payment methods">Payment Methods</option>
-          </select>
-        </div>
-        <div>
-          <label>Lifting Days</label>
-          <br></br>
-          <select>
-            <option value="lifting days">Lifting Days</option>
-          </select>
-        </div>
+        {SelectOptionData.map((item) => {
+          return (
+            <div>
+              <label>{item.label}</label>
+              <br></br>
+              <select>
+                <option value={`${item.option}`}>{item.option}</option>
+              </select>
+            </div>
+          );
+        })}
         <div className={classes.clear_all}>Clear All</div>
       </div>
 
