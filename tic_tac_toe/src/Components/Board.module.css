@@ -1,0 +1,10 @@
+.board_container {
+  width: 25rem;
+}
+
+.board_row {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid;
+  justify-content: center;
+}
